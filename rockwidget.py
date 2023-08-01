@@ -12,8 +12,8 @@ class RockWidget(QWidget):
 
         
         #necessidade de adicionar o botão no layout
-        widget_layout = QHBoxLayout() #horizontal
-        # widget_layout = QVBoxLayout() #vertical
+        # widget_layout = QHBoxLayout() #horizontal
+        widget_layout = QVBoxLayout() #vertical
         widget_layout.addWidget(button1)
         widget_layout.addWidget(button2)
         self.setLayout(widget_layout)
